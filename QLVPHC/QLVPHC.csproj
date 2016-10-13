@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D00F53AE-A95D-455A-ADB3-70D706369C85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLVPHC</RootNamespace>
+    <AssemblyName>QLVPHC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.2" />
+    <Reference Include="DevExpress.Data.v15.2" />
+    <Reference Include="DevExpress.Printing.v15.2.Core" />
+    <Reference Include="DevExpress.Utils.v15.2" />
+    <Reference Include="DevExpress.XtraBars.v15.2" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v15.2" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\B_BBVPHC.cs" />
+    <Compile Include="BLL\B_ChucVu.cs" />
+    <Compile Include="BLL\B_CTQDVPHC.cs" />
+    <Compile Include="BLL\B_Dieu.cs" />
+    <Compile Include="BLL\B_GiaiTrinh.cs" />
+    <Compile Include="BLL\B_GiaoQuyen.cs" />
+    <Compile Include="BLL\B_Khoan.cs" />
+    <Compile Include="BLL\B_NghiDinh.cs" />
+    <Compile Include="BLL\B_NhanVien.cs" />
+    <Compile Include="BLL\B_PhongBan.cs" />
+    <Compile Include="BLL\B_QDVPHC.cs" />
+    <Compile Include="DAL\BienBanTGTV.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\BienBanVPHC.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ChucVu.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTBienBanVPHC.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTQuyetDinhTTTV.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CTQuyetDinhXPVPHC.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Diem.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Dieu.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\GiaiTrinh.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\GiaoQuyen.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Khoan.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\MucPhat.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\NghiDinh.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\NhanVien.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\PhongBan.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QLVPHC.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLVPHC.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QLVPHC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QLVPHC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLVPHC.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Quyen.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QuyetDinhTGTV.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QuyetDinhTLTV.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QuyetDinhTTTV.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\QuyetDinhXPVPHC.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\sysdiagram.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ThamSo.cs">
+      <DependentUpon>QLVPHC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\BBVPHCDto.cs" />
+    <Compile Include="DTO\ChucVuDto.cs" />
+    <Compile Include="DTO\CTQDVPHCDto.cs" />
+    <Compile Include="DTO\DieuDto.cs" />
+    <Compile Include="DTO\GiaiTrinhDto.cs" />
+    <Compile Include="DTO\GiaoQuyenDto.cs" />
+    <Compile Include="DTO\KhoanDto.cs" />
+    <Compile Include="DTO\NghiDinhDto.cs" />
+    <Compile Include="DTO\NhanVienDto.cs" />
+    <Compile Include="DTO\PhongBanDto.cs" />
+    <Compile Include="DTO\QDVPHCDto.cs" />
+    <Compile Include="PresentationLayer\frmBBXPHC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmBBXPHC.Designer.cs">
+      <DependentUpon>frmBBXPHC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDanhMucDieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDanhMucDieu.Designer.cs">
+      <DependentUpon>frmDanhMucDieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDanhMucKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmDanhMucKhoan.Designer.cs">
+      <DependentUpon>frmDanhMucKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmQDXPHC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmQDXPHC.Designer.cs">
+      <DependentUpon>frmQDXPHC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\frmScreenMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\frmScreenMain.Designer.cs">
+      <DependentUpon>frmScreenMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueContants\ErrorMessage.cs" />
+    <Compile Include="ValueContants\SuccessMesage.cs" />
+    <Compile Include="ValueContants\VietHoaGridview.cs" />
+    <EmbeddedResource Include="PresentationLayer\frmBBXPHC.resx">
+      <DependentUpon>frmBBXPHC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmDanhMucDieu.resx">
+      <DependentUpon>frmDanhMucDieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmDanhMucKhoan.resx">
+      <DependentUpon>frmDanhMucKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmQDXPHC.resx">
+      <DependentUpon>frmQDXPHC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\frmScreenMain.resx">
+      <DependentUpon>frmScreenMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="DAL\QLVPHC.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLVPHC.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DAL\QLVPHC.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLVPHC.edmx</DependentUpon>
+      <LastGenOutput>QLVPHC.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DAL\QLVPHC.edmx.diagram">
+      <DependentUpon>QLVPHC.edmx</DependentUpon>
+    </None>
+    <None Include="DAL\QLVPHC.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLVPHC.edmx</DependentUpon>
+      <LastGenOutput>QLVPHC.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Report\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Bao-mat.jpg" />
+    <Content Include="Resources\BaoCao.png" />
+    <None Include="Resources\Black bookmark.png" />
+    <None Include="Resources\Blue bookmark.png" />
+    <None Include="Resources\Bookmark.png" />
+    <Content Include="Resources\Button-Info-icon.png" />
+    <Content Include="Resources\cancel_48.png" />
+    <Content Include="Resources\CapNhat %282%29.png" />
+    <Content Include="Resources\CapNhat.png" />
+    <Content Include="Resources\chuy.png" />
+    <Content Include="Resources\chú ý pro.png" />
+    <Content Include="Resources\clock_48.png" />
+    <None Include="Resources\DangNhapHeTHong.png" />
+    <Content Include="Resources\email-info-icon.png" />
+    <Content Include="Resources\email-send-icon.png" />
+    <Content Include="Resources\Exit.png" />
+    <None Include="Resources\frmDangNhap.png" />
+    <None Include="Resources\frmDangXuat.png" />
+    <Content Include="Resources\Gmail.png" />
+    <Content Include="Resources\Gmail1.png" />
+    <None Include="Resources\Green bookmark.png" />
+    <Content Include="Resources\hoantat.png" />
+    <Content Include="Resources\huongdan.png" />
+    <Content Include="Resources\Key.png" />
+    <Content Include="Resources\Keychain-Access-icon.png" />
+    <Content Include="Resources\khachhang.png" />
+    <Content Include="Resources\khachhangin.png" />
+    <Content Include="Resources\LichSuHoatDong.png" />
+    <Content Include="Resources\Lock.png" />
+    <Content Include="Resources\Login.png" />
+    <Content Include="Resources\Logout.png" />
+    <Content Include="Resources\nhanvienpro.png" />
+    <Content Include="Resources\openfile.png" />
+    <Content Include="Resources\printVeBa.png" />
+    <Content Include="Resources\reload.png" />
+    <Content Include="Resources\reload32xxx.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\SaveAnh.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\sua1.png" />
+    <Content Include="Resources\them1.png" />
+    <Content Include="Resources\ThongKe.png" />
+    <Content Include="Resources\timkiem.png" />
+    <Content Include="Resources\timkiempro.png" />
+    <Content Include="Resources\tknho.png" />
+    <Content Include="Resources\tkpro3.png" />
+    <Content Include="Resources\vechuongtrinh.png" />
+    <Content Include="Resources\xoa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

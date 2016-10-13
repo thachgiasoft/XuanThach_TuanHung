@@ -1,0 +1,139 @@
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.exe.config
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.csprojResolveAssemblyReference.cache
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmBBXPHC.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDangNhap.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDanhMucDieu.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmMain.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmQDXPHC.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmScreenMain.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.Properties.Resources.resources
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.csproj.GenerateResource.Cache
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.exe.licenses
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.exe
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.pdb
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.dll
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.SqlServer.dll
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.xml
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.SqlServer.xml
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.exe
+E:\VietA-TuanHung\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.pdb
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.exe.config
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.exe
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.pdb
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmBBXPHC.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDangNhap.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDanhMucDieu.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDanhMucKhoan.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmMain.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmQDXPHC.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmScreenMain.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.Properties.Resources.resources
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.csproj.GenerateResource.Cache
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\obj\Debug\QLVPHC.exe.licenses
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.exe
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\QLVPHC.pdb
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.dll
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.xml
+D:\Dự án RedCode (Quản lý vi phạm hành chính)\QLVPHC\QLVPHC\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\QLVPHC.exe.config
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.exe
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.pdb
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\QLVPHC.exe
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\QLVPHC.pdb
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.BonusSkins.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Data.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Utils.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraBars.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\EntityFramework.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Office.v15.2.Core.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Data.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Utils.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraBars.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\EntityFramework.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Office.v15.2.Core.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.csprojResolveAssemblyReference.cache
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmBBXPHC.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDangNhap.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDanhMucDieu.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmDanhMucKhoan.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmMain.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmQDXPHC.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.PresentationLayer.frmScreenMain.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.Properties.Resources.resources
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.csproj.GenerateResource.Cache
+D:\MyData\New Project\QLVPHC_Full\QLVPHC\obj\Debug\QLVPHC.exe.licenses

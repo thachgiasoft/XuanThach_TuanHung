@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLVPHCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BienBanTGTV">
+    <Key>
+      <PropertyRef Name="SoBBTG" />
+    </Key>
+    <Property Name="SoBBTG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GioLapBB" Type="Int32" />
+    <Property Name="PhutLapBB" Type="Int32" />
+    <Property Name="NgayLapBB" Type="DateTime" Precision="0" />
+    <Property Name="DiaChiLapBB" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MaNV1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ChuTheViPham" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="QuocTich" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="NgayCap" Type="DateTime" Precision="0" />
+    <Property Name="NoiCap" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NVLapBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayNhap" Type="DateTime" Precision="3" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="QuyetDinhTGTVs" Relationship="Self.FK_QuyetDinhTGTV_BienBanTGTV" FromRole="BienBanTGTV" ToRole="QuyetDinhTGTV" />
+  </EntityType>
+  <EntityType Name="BienBanVPHC">
+    <Key>
+      <PropertyRef Name="SoBBVPHC" />
+    </Key>
+    <Property Name="SoBBVPHC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VeViecLapBB" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CanCuLapBB" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GioLapBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhutLapBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayLapBB" Type="DateTime" Precision="0" />
+    <Property Name="DiaDiemLapBB" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MaNV1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MaNV2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ChuTheViPham" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="QuocTich" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayCap" Type="DateTime" Precision="0" />
+    <Property Name="NoiCap" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NoiDungVP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LoiKhaiNguoiVP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LoiKhaiNhanChung" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BienPhap" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TangVatTamGiu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GioHen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhutHen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayHen" Type="DateTime" Precision="0" />
+    <Property Name="DiaDiemHen" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GioXongBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhutXongBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayXongBB" Type="DateTime" Precision="0" />
+    <Property Name="LyDoKhongKyBB" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiLapBB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="CTBienBanVPHCs" Relationship="Self.FK_CTBienBanVPHC_BienBanVPHC" FromRole="BienBanVPHC" ToRole="CTBienBanVPHC" />
+    <NavigationProperty Name="QuyetDinhTTTVs" Relationship="Self.FK_QuyetDinhTTTV_BienBanVPHC" FromRole="BienBanVPHC" ToRole="QuyetDinhTTTV" />
+    <NavigationProperty Name="QuyetDinhXPVPHCs" Relationship="Self.FK_QuyetDinhXPVPHC_BienBanVPHC" FromRole="BienBanVPHC" ToRole="QuyetDinhXPVPHC" />
+  </EntityType>
+  <EntityType Name="ChucVu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaCV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenCV" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="NhanViens" Relationship="Self.FK_NhanVien_ChucVu" FromRole="ChucVu" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="CTBienBanVPHC">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoBBVPHC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaDiem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="BienBanVPHC" Relationship="Self.FK_CTBienBanVPHC_BienBanVPHC" FromRole="CTBienBanVPHC" ToRole="BienBanVPHC" />
+  </EntityType>
+  <EntityType Name="CTQuyetDinhTTTV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoQDTTTV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenTangVat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="DVTinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="QuyetDinhTTTV" Relationship="Self.FK_CTQuyetDinhTTTV_QuyetDinhTTTV" FromRole="CTQuyetDinhTTTV" ToRole="QuyetDinhTTTV" />
+  </EntityType>
+  <EntityType Name="CTQuyetDinhXPVPHC">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoQDXPVPHC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaDiem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaKhoan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaDieu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MucPhat" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="QuyetDinhXPVPHC" Relationship="Self.FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC" FromRole="CTQuyetDinhXPVPHC" ToRole="QuyetDinhXPVPHC" />
+  </EntityType>
+  <EntityType Name="Diem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaDiem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaKhoan" Type="Int64" />
+    <Property Name="MaDieu" Type="Int64" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDetele" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Dieu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" />
+    <Property Name="MaDieu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="Khoans" Relationship="Self.FK_Khoan_Dieu" FromRole="Dieu" ToRole="Khoan" />
+  </EntityType>
+  <EntityType Name="GiaiTrinh">
+    <Key>
+      <PropertyRef Name="SoGiaiTrinh" />
+    </Key>
+    <Property Name="SoGiaiTrinh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgayGiaiTrinh" Type="DateTime" Precision="0" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sta" Type="Int32" />
+    <NavigationProperty Name="QuyetDinhXPVPHCs" Relationship="Self.FK_QuyetDinhXPVPHC_GiaiTrinh" FromRole="GiaiTrinh" ToRole="QuyetDinhXPVPHC" />
+  </EntityType>
+  <EntityType Name="GiaoQuyen">
+    <Key>
+      <PropertyRef Name="SoGiaoQuyen" />
+    </Key>
+    <Property Name="SoGiaoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgayGiaoQuyen" Type="DateTime" Precision="0" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sta" Type="Int32" />
+    <NavigationProperty Name="QuyetDinhXPVPHCs" Relationship="Self.FK_QuyetDinhXPVPHC_GiaoQuyen" FromRole="GiaoQuyen" ToRole="QuyetDinhXPVPHC" />
+  </EntityType>
+  <EntityType Name="Khoan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaKhoan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaDieu" Type="Int64" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="Dieu" Relationship="Self.FK_Khoan_Dieu" FromRole="Khoan" ToRole="Dieu" />
+  </EntityType>
+  <EntityType Name="MucPhat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaMucPhat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MucPhat1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Sta" Type="Int16" />
+  </EntityType>
+  <EntityType Name="NghiDinh">
+    <Key>
+      <PropertyRef Name="SoNghiDinh" />
+    </Key>
+    <Property Name="SoNghiDinh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NgayNghiDinh" Type="DateTime" Precision="0" />
+    <Property Name="MoTa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sta" Type="Int32" />
+    <NavigationProperty Name="QuyetDinhXPVPHCs" Relationship="Self.FK_QuyetDinhXPVPHC_NghiDinh" FromRole="NghiDinh" ToRole="QuyetDinhXPVPHC" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaCV" Type="Int32" />
+    <Property Name="MaPB" Type="Int32" />
+    <Property Name="Ho" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NamSinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoDT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenDN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MaQuyen" Type="Int32" />
+    <Property Name="AnhDaiDien" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="ChucVu" Relationship="Self.FK_NhanVien_ChucVu" FromRole="NhanVien" ToRole="ChucVu" />
+    <NavigationProperty Name="PhongBan" Relationship="Self.FK_NhanVien_PhongBan" FromRole="NhanVien" ToRole="PhongBan" />
+    <NavigationProperty Name="Quyen" Relationship="Self.FK_NhanVien_Quyen" FromRole="NhanVien" ToRole="Quyen" />
+  </EntityType>
+  <EntityType Name="PhongBan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaPB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenPB" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="NhanViens" Relationship="Self.FK_NhanVien_PhongBan" FromRole="PhongBan" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="Quyen">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsDelete" Type="Boolean" />
+    <NavigationProperty Name="NhanViens" Relationship="Self.FK_NhanVien_Quyen" FromRole="Quyen" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="QuyetDinhTGTV">
+    <Key>
+      <PropertyRef Name="SoQDTGTV" />
+    </Key>
+    <Property Name="SoQDTGTV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoBBTGTV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayLapQD" Type="DateTime" Precision="0" />
+    <Property Name="ChuTheVP" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="QuocTich" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="NgayCap" Type="DateTime" Precision="0" />
+    <Property Name="NoiCap" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TangVat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoGiaHan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TGTamGiu" Type="Int32" />
+    <Property Name="NgayBatDau" Type="DateTime" Precision="0" />
+    <Property Name="NgayKetThuc" Type="DateTime" Precision="0" />
+    <Property Name="DiaDiemTG" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ChuTheTG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayNhap" Type="DateTime" Precision="3" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="BienBanTGTV" Relationship="Self.FK_QuyetDinhTGTV_BienBanTGTV" FromRole="QuyetDinhTGTV" ToRole="BienBanTGTV" />
+    <NavigationProperty Name="QuyetDinhTLTVs" Relationship="Self.FK_QuyetDinhTLTV_QuyetDinhTGTV" FromRole="QuyetDinhTGTV" ToRole="QuyetDinhTLTV" />
+  </EntityType>
+  <EntityType Name="QuyetDinhTLTV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoQDTLTV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoQDTGTV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayLapQD" Type="DateTime" Precision="0" />
+    <Property Name="ChuTheViPham" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="QuocTich" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgheNghiep" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="NgayCap" Type="DateTime" Precision="0" />
+    <Property Name="NoiCap" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TangVat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NVThucHien" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayNhap" Type="DateTime" Precision="3" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="QuyetDinhTGTV" Relationship="Self.FK_QuyetDinhTLTV_QuyetDinhTGTV" FromRole="QuyetDinhTLTV" ToRole="QuyetDinhTGTV" />
+  </EntityType>
+  <EntityType Name="QuyetDinhTTTV">
+    <Key>
+      <PropertyRef Name="SoQDTT" />
+    </Key>
+    <Property Name="SoQDTT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoBBVPHC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayLapQD" Type="DateTime" Precision="0" />
+    <Property Name="NVThucHien" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaKhoan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaDieu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgayNhap" Type="DateTime" Precision="3" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="BienBanVPHC" Relationship="Self.FK_QuyetDinhTTTV_BienBanVPHC" FromRole="QuyetDinhTTTV" ToRole="BienBanVPHC" />
+    <NavigationProperty Name="CTQuyetDinhTTTVs" Relationship="Self.FK_CTQuyetDinhTTTV_QuyetDinhTTTV" FromRole="QuyetDinhTTTV" ToRole="CTQuyetDinhTTTV" />
+  </EntityType>
+  <EntityType Name="QuyetDinhXPVPHC">
+    <Key>
+      <PropertyRef Name="SoQD" />
+    </Key>
+    <Property Name="SoQD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NgapLapQD" Type="DateTime" Precision="0" />
+    <Property Name="SoNghiDinh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoBBVPHC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoBBGiaiTrinh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoVBGiaoQuyen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TTTangGiam" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TongTienPhat" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="XuPhatBoSung" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="BPNganChan" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="BPKhacPhuc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="NgayHieuLuc" Type="DateTime" Precision="0" />
+    <Property Name="ThoiHanNop" Type="Int32" />
+    <Property Name="GuiDVThuTien" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GuiCho" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhap" Type="DateTime" Precision="3" />
+    <Property Name="NVNhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sta" Type="Int16" />
+    <NavigationProperty Name="BienBanVPHC" Relationship="Self.FK_QuyetDinhXPVPHC_BienBanVPHC" FromRole="QuyetDinhXPVPHC" ToRole="BienBanVPHC" />
+    <NavigationProperty Name="CTQuyetDinhXPVPHCs" Relationship="Self.FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC" FromRole="QuyetDinhXPVPHC" ToRole="CTQuyetDinhXPVPHC" />
+    <NavigationProperty Name="GiaiTrinh" Relationship="Self.FK_QuyetDinhXPVPHC_GiaiTrinh" FromRole="QuyetDinhXPVPHC" ToRole="GiaiTrinh" />
+    <NavigationProperty Name="GiaoQuyen" Relationship="Self.FK_QuyetDinhXPVPHC_GiaoQuyen" FromRole="QuyetDinhXPVPHC" ToRole="GiaoQuyen" />
+    <NavigationProperty Name="NghiDinh" Relationship="Self.FK_QuyetDinhXPVPHC_NghiDinh" FromRole="QuyetDinhXPVPHC" ToRole="NghiDinh" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ThamSo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MoTa" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Stt" Type="Int32" />
+    <Property Name="GhiChu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_QuyetDinhTGTV_BienBanTGTV">
+    <End Role="BienBanTGTV" Type="Self.BienBanTGTV" Multiplicity="0..1" />
+    <End Role="QuyetDinhTGTV" Type="Self.QuyetDinhTGTV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BienBanTGTV">
+        <PropertyRef Name="SoBBTG" />
+      </Principal>
+      <Dependent Role="QuyetDinhTGTV">
+        <PropertyRef Name="SoBBTGTV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTBienBanVPHC_BienBanVPHC">
+    <End Role="BienBanVPHC" Type="Self.BienBanVPHC" Multiplicity="0..1" />
+    <End Role="CTBienBanVPHC" Type="Self.CTBienBanVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BienBanVPHC">
+        <PropertyRef Name="SoBBVPHC" />
+      </Principal>
+      <Dependent Role="CTBienBanVPHC">
+        <PropertyRef Name="SoBBVPHC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhTTTV_BienBanVPHC">
+    <End Role="BienBanVPHC" Type="Self.BienBanVPHC" Multiplicity="0..1" />
+    <End Role="QuyetDinhTTTV" Type="Self.QuyetDinhTTTV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BienBanVPHC">
+        <PropertyRef Name="SoBBVPHC" />
+      </Principal>
+      <Dependent Role="QuyetDinhTTTV">
+        <PropertyRef Name="SoBBVPHC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhXPVPHC_BienBanVPHC">
+    <End Role="BienBanVPHC" Type="Self.BienBanVPHC" Multiplicity="0..1" />
+    <End Role="QuyetDinhXPVPHC" Type="Self.QuyetDinhXPVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BienBanVPHC">
+        <PropertyRef Name="SoBBVPHC" />
+      </Principal>
+      <Dependent Role="QuyetDinhXPVPHC">
+        <PropertyRef Name="SoBBVPHC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NhanVien_ChucVu">
+    <End Role="ChucVu" Type="Self.ChucVu" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucVu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="MaCV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTQuyetDinhTTTV_QuyetDinhTTTV">
+    <End Role="QuyetDinhTTTV" Type="Self.QuyetDinhTTTV" Multiplicity="0..1" />
+    <End Role="CTQuyetDinhTTTV" Type="Self.CTQuyetDinhTTTV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuyetDinhTTTV">
+        <PropertyRef Name="SoQDTT" />
+      </Principal>
+      <Dependent Role="CTQuyetDinhTTTV">
+        <PropertyRef Name="SoQDTTTV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC">
+    <End Role="QuyetDinhXPVPHC" Type="Self.QuyetDinhXPVPHC" Multiplicity="0..1" />
+    <End Role="CTQuyetDinhXPVPHC" Type="Self.CTQuyetDinhXPVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuyetDinhXPVPHC">
+        <PropertyRef Name="SoQD" />
+      </Principal>
+      <Dependent Role="CTQuyetDinhXPVPHC">
+        <PropertyRef Name="SoQDXPVPHC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Khoan_Dieu">
+    <End Role="Dieu" Type="Self.Dieu" Multiplicity="0..1" />
+    <End Role="Khoan" Type="Self.Khoan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dieu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Khoan">
+        <PropertyRef Name="MaDieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhXPVPHC_GiaiTrinh">
+    <End Role="GiaiTrinh" Type="Self.GiaiTrinh" Multiplicity="0..1" />
+    <End Role="QuyetDinhXPVPHC" Type="Self.QuyetDinhXPVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiaiTrinh">
+        <PropertyRef Name="SoGiaiTrinh" />
+      </Principal>
+      <Dependent Role="QuyetDinhXPVPHC">
+        <PropertyRef Name="SoBBGiaiTrinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhXPVPHC_GiaoQuyen">
+    <End Role="GiaoQuyen" Type="Self.GiaoQuyen" Multiplicity="0..1" />
+    <End Role="QuyetDinhXPVPHC" Type="Self.QuyetDinhXPVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiaoQuyen">
+        <PropertyRef Name="SoGiaoQuyen" />
+      </Principal>
+      <Dependent Role="QuyetDinhXPVPHC">
+        <PropertyRef Name="SoVBGiaoQuyen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhXPVPHC_NghiDinh">
+    <End Role="NghiDinh" Type="Self.NghiDinh" Multiplicity="0..1" />
+    <End Role="QuyetDinhXPVPHC" Type="Self.QuyetDinhXPVPHC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NghiDinh">
+        <PropertyRef Name="SoNghiDinh" />
+      </Principal>
+      <Dependent Role="QuyetDinhXPVPHC">
+        <PropertyRef Name="SoNghiDinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NhanVien_PhongBan">
+    <End Role="PhongBan" Type="Self.PhongBan" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongBan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="MaPB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NhanVien_Quyen">
+    <End Role="Quyen" Type="Self.Quyen" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quyen">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="MaQuyen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuyetDinhTLTV_QuyetDinhTGTV">
+    <End Role="QuyetDinhTGTV" Type="Self.QuyetDinhTGTV" Multiplicity="0..1" />
+    <End Role="QuyetDinhTLTV" Type="Self.QuyetDinhTLTV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuyetDinhTGTV">
+        <PropertyRef Name="SoQDTGTV" />
+      </Principal>
+      <Dependent Role="QuyetDinhTLTV">
+        <PropertyRef Name="SoQDTGTV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLVPHCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BienBanTGTVs" EntityType="Self.BienBanTGTV" />
+    <EntitySet Name="BienBanVPHCs" EntityType="Self.BienBanVPHC" />
+    <EntitySet Name="ChucVus" EntityType="Self.ChucVu" />
+    <EntitySet Name="CTBienBanVPHCs" EntityType="Self.CTBienBanVPHC" />
+    <EntitySet Name="CTQuyetDinhTTTVs" EntityType="Self.CTQuyetDinhTTTV" />
+    <EntitySet Name="CTQuyetDinhXPVPHCs" EntityType="Self.CTQuyetDinhXPVPHC" />
+    <EntitySet Name="Diems" EntityType="Self.Diem" />
+    <EntitySet Name="Dieux" EntityType="Self.Dieu" />
+    <EntitySet Name="GiaiTrinhs" EntityType="Self.GiaiTrinh" />
+    <EntitySet Name="GiaoQuyens" EntityType="Self.GiaoQuyen" />
+    <EntitySet Name="Khoans" EntityType="Self.Khoan" />
+    <EntitySet Name="MucPhats" EntityType="Self.MucPhat" />
+    <EntitySet Name="NghiDinhs" EntityType="Self.NghiDinh" />
+    <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+    <EntitySet Name="PhongBans" EntityType="Self.PhongBan" />
+    <EntitySet Name="Quyens" EntityType="Self.Quyen" />
+    <EntitySet Name="QuyetDinhTGTVs" EntityType="Self.QuyetDinhTGTV" />
+    <EntitySet Name="QuyetDinhTLTVs" EntityType="Self.QuyetDinhTLTV" />
+    <EntitySet Name="QuyetDinhTTTVs" EntityType="Self.QuyetDinhTTTV" />
+    <EntitySet Name="QuyetDinhXPVPHCs" EntityType="Self.QuyetDinhXPVPHC" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="ThamSoes" EntityType="Self.ThamSo" />
+    <AssociationSet Name="FK_QuyetDinhTGTV_BienBanTGTV" Association="Self.FK_QuyetDinhTGTV_BienBanTGTV">
+      <End Role="BienBanTGTV" EntitySet="BienBanTGTVs" />
+      <End Role="QuyetDinhTGTV" EntitySet="QuyetDinhTGTVs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTBienBanVPHC_BienBanVPHC" Association="Self.FK_CTBienBanVPHC_BienBanVPHC">
+      <End Role="BienBanVPHC" EntitySet="BienBanVPHCs" />
+      <End Role="CTBienBanVPHC" EntitySet="CTBienBanVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhTTTV_BienBanVPHC" Association="Self.FK_QuyetDinhTTTV_BienBanVPHC">
+      <End Role="BienBanVPHC" EntitySet="BienBanVPHCs" />
+      <End Role="QuyetDinhTTTV" EntitySet="QuyetDinhTTTVs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhXPVPHC_BienBanVPHC" Association="Self.FK_QuyetDinhXPVPHC_BienBanVPHC">
+      <End Role="BienBanVPHC" EntitySet="BienBanVPHCs" />
+      <End Role="QuyetDinhXPVPHC" EntitySet="QuyetDinhXPVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NhanVien_ChucVu" Association="Self.FK_NhanVien_ChucVu">
+      <End Role="ChucVu" EntitySet="ChucVus" />
+      <End Role="NhanVien" EntitySet="NhanViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTQuyetDinhTTTV_QuyetDinhTTTV" Association="Self.FK_CTQuyetDinhTTTV_QuyetDinhTTTV">
+      <End Role="QuyetDinhTTTV" EntitySet="QuyetDinhTTTVs" />
+      <End Role="CTQuyetDinhTTTV" EntitySet="CTQuyetDinhTTTVs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC" Association="Self.FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC">
+      <End Role="QuyetDinhXPVPHC" EntitySet="QuyetDinhXPVPHCs" />
+      <End Role="CTQuyetDinhXPVPHC" EntitySet="CTQuyetDinhXPVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Khoan_Dieu" Association="Self.FK_Khoan_Dieu">
+      <End Role="Dieu" EntitySet="Dieux" />
+      <End Role="Khoan" EntitySet="Khoans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhXPVPHC_GiaiTrinh" Association="Self.FK_QuyetDinhXPVPHC_GiaiTrinh">
+      <End Role="GiaiTrinh" EntitySet="GiaiTrinhs" />
+      <End Role="QuyetDinhXPVPHC" EntitySet="QuyetDinhXPVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhXPVPHC_GiaoQuyen" Association="Self.FK_QuyetDinhXPVPHC_GiaoQuyen">
+      <End Role="GiaoQuyen" EntitySet="GiaoQuyens" />
+      <End Role="QuyetDinhXPVPHC" EntitySet="QuyetDinhXPVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhXPVPHC_NghiDinh" Association="Self.FK_QuyetDinhXPVPHC_NghiDinh">
+      <End Role="NghiDinh" EntitySet="NghiDinhs" />
+      <End Role="QuyetDinhXPVPHC" EntitySet="QuyetDinhXPVPHCs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NhanVien_PhongBan" Association="Self.FK_NhanVien_PhongBan">
+      <End Role="PhongBan" EntitySet="PhongBans" />
+      <End Role="NhanVien" EntitySet="NhanViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NhanVien_Quyen" Association="Self.FK_NhanVien_Quyen">
+      <End Role="Quyen" EntitySet="Quyens" />
+      <End Role="NhanVien" EntitySet="NhanViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuyetDinhTLTV_QuyetDinhTGTV" Association="Self.FK_QuyetDinhTLTV_QuyetDinhTGTV">
+      <End Role="QuyetDinhTGTV" EntitySet="QuyetDinhTGTVs" />
+      <End Role="QuyetDinhTLTV" EntitySet="QuyetDinhTLTVs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

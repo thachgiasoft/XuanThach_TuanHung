@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLVPHCModelStoreContainer" CdmEntityContainer="QLVPHCEntities">
+    <EntitySetMapping Name="BienBanTGTVs">
+      <EntityTypeMapping TypeName="QLVPHCModel.BienBanTGTV">
+        <MappingFragment StoreEntitySet="BienBanTGTV">
+          <ScalarProperty Name="SoBBTG" ColumnName="SoBBTG" />
+          <ScalarProperty Name="SoQuyen" ColumnName="SoQuyen" />
+          <ScalarProperty Name="GioLapBB" ColumnName="GioLapBB" />
+          <ScalarProperty Name="PhutLapBB" ColumnName="PhutLapBB" />
+          <ScalarProperty Name="NgayLapBB" ColumnName="NgayLapBB" />
+          <ScalarProperty Name="DiaChiLapBB" ColumnName="DiaChiLapBB" />
+          <ScalarProperty Name="MaNV1" ColumnName="MaNV1" />
+          <ScalarProperty Name="MaNV2" ColumnName="MaNV2" />
+          <ScalarProperty Name="ChuTheViPham" ColumnName="ChuTheViPham" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="NgheNghiep" ColumnName="NgheNghiep" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayCap" ColumnName="NgayCap" />
+          <ScalarProperty Name="NoiCap" ColumnName="NoiCap" />
+          <ScalarProperty Name="NVLapBB" ColumnName="NVLapBB" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BienBanVPHCs">
+      <EntityTypeMapping TypeName="QLVPHCModel.BienBanVPHC">
+        <MappingFragment StoreEntitySet="BienBanVPHC">
+          <ScalarProperty Name="SoBBVPHC" ColumnName="SoBBVPHC" />
+          <ScalarProperty Name="SoQuyen" ColumnName="SoQuyen" />
+          <ScalarProperty Name="VeViecLapBB" ColumnName="VeViecLapBB" />
+          <ScalarProperty Name="CanCuLapBB" ColumnName="CanCuLapBB" />
+          <ScalarProperty Name="GioLapBB" ColumnName="GioLapBB" />
+          <ScalarProperty Name="PhutLapBB" ColumnName="PhutLapBB" />
+          <ScalarProperty Name="NgayLapBB" ColumnName="NgayLapBB" />
+          <ScalarProperty Name="DiaDiemLapBB" ColumnName="DiaDiemLapBB" />
+          <ScalarProperty Name="MaNV1" ColumnName="MaNV1" />
+          <ScalarProperty Name="MaNV2" ColumnName="MaNV2" />
+          <ScalarProperty Name="ChuTheViPham" ColumnName="ChuTheViPham" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="NgheNghiep" ColumnName="NgheNghiep" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayCap" ColumnName="NgayCap" />
+          <ScalarProperty Name="NoiCap" ColumnName="NoiCap" />
+          <ScalarProperty Name="NoiDungVP" ColumnName="NoiDungVP" />
+          <ScalarProperty Name="LoiKhaiNguoiVP" ColumnName="LoiKhaiNguoiVP" />
+          <ScalarProperty Name="LoiKhaiNhanChung" ColumnName="LoiKhaiNhanChung" />
+          <ScalarProperty Name="BienPhap" ColumnName="BienPhap" />
+          <ScalarProperty Name="TangVatTamGiu" ColumnName="TangVatTamGiu" />
+          <ScalarProperty Name="GioHen" ColumnName="GioHen" />
+          <ScalarProperty Name="PhutHen" ColumnName="PhutHen" />
+          <ScalarProperty Name="NgayHen" ColumnName="NgayHen" />
+          <ScalarProperty Name="DiaDiemHen" ColumnName="DiaDiemHen" />
+          <ScalarProperty Name="GioXongBB" ColumnName="GioXongBB" />
+          <ScalarProperty Name="PhutXongBB" ColumnName="PhutXongBB" />
+          <ScalarProperty Name="NgayXongBB" ColumnName="NgayXongBB" />
+          <ScalarProperty Name="LyDoKhongKyBB" ColumnName="LyDoKhongKyBB" />
+          <ScalarProperty Name="NguoiLapBB" ColumnName="NguoiLapBB" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChucVus">
+      <EntityTypeMapping TypeName="QLVPHCModel.ChucVu">
+        <MappingFragment StoreEntitySet="ChucVu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaCV" ColumnName="MaCV" />
+          <ScalarProperty Name="TenCV" ColumnName="TenCV" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTBienBanVPHCs">
+      <EntityTypeMapping TypeName="QLVPHCModel.CTBienBanVPHC">
+        <MappingFragment StoreEntitySet="CTBienBanVPHC">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoBBVPHC" ColumnName="SoBBVPHC" />
+          <ScalarProperty Name="MaDiem" ColumnName="MaDiem" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTQuyetDinhTTTVs">
+      <EntityTypeMapping TypeName="QLVPHCModel.CTQuyetDinhTTTV">
+        <MappingFragment StoreEntitySet="CTQuyetDinhTTTV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoQDTTTV" ColumnName="SoQDTTTV" />
+          <ScalarProperty Name="TenTangVat" ColumnName="TenTangVat" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DVTinh" ColumnName="DVTinh" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTQuyetDinhXPVPHCs">
+      <EntityTypeMapping TypeName="QLVPHCModel.CTQuyetDinhXPVPHC">
+        <MappingFragment StoreEntitySet="CTQuyetDinhXPVPHC">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoQDXPVPHC" ColumnName="SoQDXPVPHC" />
+          <ScalarProperty Name="MaDiem" ColumnName="MaDiem" />
+          <ScalarProperty Name="MaKhoan" ColumnName="MaKhoan" />
+          <ScalarProperty Name="MaDieu" ColumnName="MaDieu" />
+          <ScalarProperty Name="MucPhat" ColumnName="MucPhat" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diems">
+      <EntityTypeMapping TypeName="QLVPHCModel.Diem">
+        <MappingFragment StoreEntitySet="Diem">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaDiem" ColumnName="MaDiem" />
+          <ScalarProperty Name="MaKhoan" ColumnName="MaKhoan" />
+          <ScalarProperty Name="MaDieu" ColumnName="MaDieu" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDetele" ColumnName="IsDetele" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dieux">
+      <EntityTypeMapping TypeName="QLVPHCModel.Dieu">
+        <MappingFragment StoreEntitySet="Dieu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaDieu" ColumnName="MaDieu" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiaiTrinhs">
+      <EntityTypeMapping TypeName="QLVPHCModel.GiaiTrinh">
+        <MappingFragment StoreEntitySet="GiaiTrinh">
+          <ScalarProperty Name="SoGiaiTrinh" ColumnName="SoGiaiTrinh" />
+          <ScalarProperty Name="NgayGiaiTrinh" ColumnName="NgayGiaiTrinh" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiaoQuyens">
+      <EntityTypeMapping TypeName="QLVPHCModel.GiaoQuyen">
+        <MappingFragment StoreEntitySet="GiaoQuyen">
+          <ScalarProperty Name="SoGiaoQuyen" ColumnName="SoGiaoQuyen" />
+          <ScalarProperty Name="NgayGiaoQuyen" ColumnName="NgayGiaoQuyen" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khoans">
+      <EntityTypeMapping TypeName="QLVPHCModel.Khoan">
+        <MappingFragment StoreEntitySet="Khoan">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaKhoan" ColumnName="MaKhoan" />
+          <ScalarProperty Name="MaDieu" ColumnName="MaDieu" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MucPhats">
+      <EntityTypeMapping TypeName="QLVPHCModel.MucPhat">
+        <MappingFragment StoreEntitySet="MucPhat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaMucPhat" ColumnName="MaMucPhat" />
+          <ScalarProperty Name="MucPhat1" ColumnName="MucPhat" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NghiDinhs">
+      <EntityTypeMapping TypeName="QLVPHCModel.NghiDinh">
+        <MappingFragment StoreEntitySet="NghiDinh">
+          <ScalarProperty Name="SoNghiDinh" ColumnName="SoNghiDinh" />
+          <ScalarProperty Name="NgayNghiDinh" ColumnName="NgayNghiDinh" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="QLVPHCModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaCV" ColumnName="MaCV" />
+          <ScalarProperty Name="MaPB" ColumnName="MaPB" />
+          <ScalarProperty Name="Ho" ColumnName="Ho" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="NamSinh" ColumnName="NamSinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDT" ColumnName="SoDT" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TenDN" ColumnName="TenDN" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="MaQuyen" ColumnName="MaQuyen" />
+          <ScalarProperty Name="AnhDaiDien" ColumnName="AnhDaiDien" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhongBans">
+      <EntityTypeMapping TypeName="QLVPHCModel.PhongBan">
+        <MappingFragment StoreEntitySet="PhongBan">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaPB" ColumnName="MaPB" />
+          <ScalarProperty Name="TenPB" ColumnName="TenPB" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quyens">
+      <EntityTypeMapping TypeName="QLVPHCModel.Quyen">
+        <MappingFragment StoreEntitySet="Quyen">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaQuyen" ColumnName="MaQuyen" />
+          <ScalarProperty Name="TenQuyen" ColumnName="TenQuyen" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuyetDinhTGTVs">
+      <EntityTypeMapping TypeName="QLVPHCModel.QuyetDinhTGTV">
+        <MappingFragment StoreEntitySet="QuyetDinhTGTV">
+          <ScalarProperty Name="SoQDTGTV" ColumnName="SoQDTGTV" />
+          <ScalarProperty Name="SoBBTGTV" ColumnName="SoBBTGTV" />
+          <ScalarProperty Name="SoQuyen" ColumnName="SoQuyen" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayLapQD" ColumnName="NgayLapQD" />
+          <ScalarProperty Name="ChuTheVP" ColumnName="ChuTheVP" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="NgheNghiep" ColumnName="NgheNghiep" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayCap" ColumnName="NgayCap" />
+          <ScalarProperty Name="NoiCap" ColumnName="NoiCap" />
+          <ScalarProperty Name="TangVat" ColumnName="TangVat" />
+          <ScalarProperty Name="LyDoGiaHan" ColumnName="LyDoGiaHan" />
+          <ScalarProperty Name="TGTamGiu" ColumnName="TGTamGiu" />
+          <ScalarProperty Name="NgayBatDau" ColumnName="NgayBatDau" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="DiaDiemTG" ColumnName="DiaDiemTG" />
+          <ScalarProperty Name="ChuTheTG" ColumnName="ChuTheTG" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuyetDinhTLTVs">
+      <EntityTypeMapping TypeName="QLVPHCModel.QuyetDinhTLTV">
+        <MappingFragment StoreEntitySet="QuyetDinhTLTV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoQDTLTV" ColumnName="SoQDTLTV" />
+          <ScalarProperty Name="SoQDTGTV" ColumnName="SoQDTGTV" />
+          <ScalarProperty Name="SoQuyen" ColumnName="SoQuyen" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayLapQD" ColumnName="NgayLapQD" />
+          <ScalarProperty Name="ChuTheViPham" ColumnName="ChuTheViPham" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="NgheNghiep" ColumnName="NgheNghiep" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayCap" ColumnName="NgayCap" />
+          <ScalarProperty Name="NoiCap" ColumnName="NoiCap" />
+          <ScalarProperty Name="TangVat" ColumnName="TangVat" />
+          <ScalarProperty Name="NVThucHien" ColumnName="NVThucHien" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuyetDinhTTTVs">
+      <EntityTypeMapping TypeName="QLVPHCModel.QuyetDinhTTTV">
+        <MappingFragment StoreEntitySet="QuyetDinhTTTV">
+          <ScalarProperty Name="SoQDTT" ColumnName="SoQDTT" />
+          <ScalarProperty Name="SoBBVPHC" ColumnName="SoBBVPHC" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="NgayLapQD" ColumnName="NgayLapQD" />
+          <ScalarProperty Name="NVThucHien" ColumnName="NVThucHien" />
+          <ScalarProperty Name="MaKhoan" ColumnName="MaKhoan" />
+          <ScalarProperty Name="MaDieu" ColumnName="MaDieu" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuyetDinhXPVPHCs">
+      <EntityTypeMapping TypeName="QLVPHCModel.QuyetDinhXPVPHC">
+        <MappingFragment StoreEntitySet="QuyetDinhXPVPHC">
+          <ScalarProperty Name="SoQD" ColumnName="SoQD" />
+          <ScalarProperty Name="SoQuyen" ColumnName="SoQuyen" />
+          <ScalarProperty Name="NgapLapQD" ColumnName="NgapLapQD" />
+          <ScalarProperty Name="SoNghiDinh" ColumnName="SoNghiDinh" />
+          <ScalarProperty Name="SoBBVPHC" ColumnName="SoBBVPHC" />
+          <ScalarProperty Name="SoBBGiaiTrinh" ColumnName="SoBBGiaiTrinh" />
+          <ScalarProperty Name="SoVBGiaoQuyen" ColumnName="SoVBGiaoQuyen" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TTTangGiam" ColumnName="TTTangGiam" />
+          <ScalarProperty Name="TongTienPhat" ColumnName="TongTienPhat" />
+          <ScalarProperty Name="XuPhatBoSung" ColumnName="XuPhatBoSung" />
+          <ScalarProperty Name="BPNganChan" ColumnName="BPNganChan" />
+          <ScalarProperty Name="BPKhacPhuc" ColumnName="BPKhacPhuc" />
+          <ScalarProperty Name="NgayHieuLuc" ColumnName="NgayHieuLuc" />
+          <ScalarProperty Name="ThoiHanNop" ColumnName="ThoiHanNop" />
+          <ScalarProperty Name="GuiDVThuTien" ColumnName="GuiDVThuTien" />
+          <ScalarProperty Name="GuiCho" ColumnName="GuiCho" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NVNhap" ColumnName="NVNhap" />
+          <ScalarProperty Name="Sta" ColumnName="Sta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="QLVPHCModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThamSoes">
+      <EntityTypeMapping TypeName="QLVPHCModel.ThamSo">
+        <MappingFragment StoreEntitySet="ThamSo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="Stt" ColumnName="Stt" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

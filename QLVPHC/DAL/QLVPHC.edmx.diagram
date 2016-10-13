@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="42e02ae767c848729924852a5c98c157" Name="Diagram1">
+        <EntityTypeShape EntityType="QLVPHCModel.BienBanTGTV" Width="1.5" PointX="10.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.BienBanVPHC" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.ChucVu" Width="1.5" PointX="7.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.CTBienBanVPHC" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.CTQuyetDinhTTTV" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.CTQuyetDinhXPVPHC" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.Diem" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.Dieu" Width="1.5" PointX="12.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.GiaiTrinh" Width="1.5" PointX="3.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.GiaoQuyen" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.Khoan" Width="1.5" PointX="15" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.MucPhat" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.NghiDinh" Width="1.5" PointX="3.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.NhanVien" Width="1.5" PointX="10" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.PhongBan" Width="1.5" PointX="7.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.Quyen" Width="1.5" PointX="7.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.QuyetDinhTGTV" Width="1.5" PointX="13" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.QuyetDinhTLTV" Width="1.5" PointX="15.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.QuyetDinhTTTV" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.QuyetDinhXPVPHC" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.sysdiagram" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLVPHCModel.ThamSo" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhTGTV_BienBanTGTV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_CTBienBanVPHC_BienBanVPHC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhTTTV_BienBanVPHC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhXPVPHC_BienBanVPHC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_CTQuyetDinhTTTV_QuyetDinhTTTV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_CTQuyetDinhXPVPHC_QuyetDinhXPVPHC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_Khoan_Dieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhXPVPHC_GiaiTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhXPVPHC_GiaoQuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhXPVPHC_NghiDinh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_NhanVien_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_NhanVien_Quyen" ManuallyRouted="false" />
+        <AssociationConnector Association="QLVPHCModel.FK_QuyetDinhTLTV_QuyetDinhTGTV" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
